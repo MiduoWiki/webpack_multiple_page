@@ -1,0 +1,36 @@
+{
+    "name": "webpack_multiple_page",
+    "version": "1.0.0",
+    "description": "webpak多页面也用实例",
+    "main": "main.js",
+    "scripts": {
+        "test": "npm test NOED_ENV=test",
+        "start": "webpack --config ./build/webpack.config.js"
+    },
+    "keywords": [
+        "weboack",
+        "webpack-dev-server",
+        "javascript",
+        "SPA",
+        "node",
+        "ES2015",
+        "babel"
+    ],
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/ckaiCp/webpack_multiple_page.git"
+    },
+    "author": "xinyun",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/ckaiCp/webpack_multiple_page/issues"
+    },
+    "homepage": "https://github.com/ckaiCp/webpack_multiple_page#readme",
+    "devDependencies": {
+        "babel-loader": "^7.1.2",
+        "babel-plugin-transform-runtime": "^6.23.0",
+        "babel-preset-es2015": "^6.24.1",
+        "webpack": "^3.10.0",
+        "webpack-dev-server": "^2.9.7"
+    }
+}
